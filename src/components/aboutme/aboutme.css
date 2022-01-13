@@ -1,0 +1,42 @@
+.portfolio__aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__aboutme-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__aboutme-content h1 {
+    margin: 1rem 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 70px;
+}
+
+.portfolio__aboutme-subtext {
+    color: var(--color-text);
+}
+
+.portfolio__aboutme-content-image img {
+    border-radius: 50%;
+}
+
+.portfolio__separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__separator div {
+    width: 75%;
+    height: 1px;
+    background: white;
+    margin: 2rem 2rem;
+}

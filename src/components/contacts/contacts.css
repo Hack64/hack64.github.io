@@ -1,0 +1,12 @@
+.portfolio__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.portfolio__contacts div {
+    max-width: 150px;
+    max-width: 100px;
+    margin: 1rem;
+}
