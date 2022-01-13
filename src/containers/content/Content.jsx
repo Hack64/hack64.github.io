@@ -8,9 +8,12 @@ import "./content.css"
 const Content = () => {
     return (
         <div className='portfolio__content'>
-            <AboutMe />
-            <Contacts />
-            <a href="#info"><button type='button'>More about me</button></a>
+            <div className='portfolio__content-main'>
+                <AboutMe />
+                <Contacts />
+                <a href="#info"><button type='button'>More about me</button></a>
+            </div>
+
             {/*<Info />*/}
         </div>
     )
