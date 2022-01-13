@@ -9,6 +9,7 @@ const Content = () => {
         <div className='portfolio__content'>
             <AboutMe />
             <Contacts />
+            <button type='button'>More about me</button>
         </div>
     )
 }
