@@ -1,0 +1,30 @@
+.portfolio__info-content {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.portfolio__info-content-title h1 {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+
+.portfolio__info-content-text {
+    max-width: 60%;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.portfolio__info-content-text p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    font-family: var(--font-family);
+    color: #fff;
+}
