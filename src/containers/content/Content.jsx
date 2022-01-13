@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutMe from '../../components/aboutme/AboutMe'
 import Contacts from '../../components/contacts/Contacts'
+import Info from '../../components/info/Info'
 
 import "./content.css"
 
@@ -9,7 +10,8 @@ const Content = () => {
         <div className='portfolio__content'>
             <AboutMe />
             <Contacts />
-            <button type='button'>More about me</button>
+            <a href="#info"><button type='button'>More about me</button></a>
+            {/*<Info />*/}
         </div>
     )
 }

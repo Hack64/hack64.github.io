@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&family=Open+Sans&display=swap');
 
 body {
       /* ff 3.6+ */
-      background:-moz-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+    background:-moz-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
 
-      /* safari 5.1+,chrome 10+ */
-      background:-webkit-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
-  
-      /* opera 11.10+ */
-      background:-o-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
-  
-      /* ie 10+ */
-      background:-ms-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
-  
-      /* global 92%+ browsers support */
-      background:radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 22% 18%, rgba(33, 150, 243, 1) 0%, rgba(156, 39, 176, 1) 100%);
+
+    background-attachment: fixed;
+    overflow: overlay;
 }
 
 :root {
     --font-family: "Montserrat", sans-serif;
     --color-text: #fff;
+    --gradient-text: linear-gradient(90deg, #2196F3 0%, #9C27B0 100%);
 }

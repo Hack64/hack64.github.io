@@ -6,3 +6,17 @@
     flex-direction: column;
     height: 100vh;
 }
+
+.portfolio__content button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    color: var(--color-text);
+    background: transparent;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
