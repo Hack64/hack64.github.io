@@ -1,0 +1,11 @@
+.portfolio__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio__footer-text {
+    font-family: var(--font-family);
+    color: #fff;
+}
