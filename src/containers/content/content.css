@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
 
     .portfolio__content button {
         margin-top: 2rem;

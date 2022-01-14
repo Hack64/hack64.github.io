@@ -10,7 +10,7 @@
     color: #fff;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1200px) {
     .portfolio__footer-text {
         font-size: 15px;
     }
