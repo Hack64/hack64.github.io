@@ -10,10 +10,14 @@
     margin: 1rem;
 }
 
+.portfolio__contacts img {
+    width: 32px;
+    height: 32px;
+}
+
 @media screen and (max-width: 500px) {
     .portfolio__contacts div {
         max-width: 30px;
         margin: 1rem;
-
     }
 }
