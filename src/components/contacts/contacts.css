@@ -7,6 +7,13 @@
 
 .portfolio__contacts div {
     max-width: 150px;
-    max-width: 100px;
     margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__contacts div {
+        max-width: 30px;
+        margin: 1rem;
+
+    }
 }

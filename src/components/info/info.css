@@ -28,3 +28,29 @@
     font-family: var(--font-family);
     color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .portfolio__info-content-title h1 {
+        color: #fff;
+        font-family: var(--font-family);
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .portfolio__info-content-text {
+        max-width: 90%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+    }
+    
+    .portfolio__info-content-text p {
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        font-family: var(--font-family);
+        color: #fff;
+    }
+}

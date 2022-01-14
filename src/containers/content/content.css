@@ -28,3 +28,21 @@
     border: 2px solid white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+
+    .portfolio__content button {
+        margin-top: 2rem;
+        padding: 1rem 1rem;
+        color: var(--color-text);
+        background: transparent;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 5px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    
+}

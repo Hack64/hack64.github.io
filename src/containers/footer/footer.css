@@ -9,3 +9,9 @@
     font-family: var(--font-family);
     color: #fff;
 }
+
+@media screen and (max-width:500px) {
+    .portfolio__footer-text {
+        font-size: 15px;
+    }
+}
