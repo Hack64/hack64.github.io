@@ -102,5 +102,5 @@ a {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    25% { border-color: white; border-width: 3px; }
+    50% { border-color: white; border-width: 4px; }
 }
