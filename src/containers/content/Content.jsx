@@ -13,7 +13,6 @@ const Content = () => {
                 <Contacts />
                 <a href="#info"><button type='button'>More about me</button></a>
             </div>
-
             <Info />
         </div>
     )

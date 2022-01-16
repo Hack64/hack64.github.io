@@ -54,3 +54,9 @@
         color: #fff;
     }
 }
+
+.popup-content {
+    -webkit-animation: scale-up-center 0.2s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+    background: white;
+    border-radius: 10px;
+}
