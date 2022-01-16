@@ -26,6 +26,8 @@
 
 .portfolio__aboutme-content-image img {
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .portfolio__separator {
